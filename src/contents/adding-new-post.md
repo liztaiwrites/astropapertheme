@@ -1,103 +1,36 @@
 ---
 author: Sat Naing
-datetime: 2022-09-23T15:22:00Z
+datetime: 2022-09-23T15:22:00.000+00:00
 title: Adding new posts in AstroPaper theme
 slug: adding-new-posts-in-astropaper-theme
 featured: true
 draft: false
 tags:
-  - docs
-ogImage: ""
-description:
-  Some rules & recommendations for creating or adding new posts using AstroPaper
+- docs
+ogImage: ''
+description: Some rules & recommendations for creating or adding new posts using AstroPaper
   theme.
+
 ---
+What if you made a career decision but then realised it was the wrong move? What do you do?
 
-Here are some rules/recommendations, tips & ticks for creating new posts in AstroPaper blog theme.
+12 years ago, I jumped from #journalism to #nursing. Like, actual bedside nursing. I quit my job of 12 years, flew to Australia, got a grant for my studies and began working as a nursing assistant in Adelaide. Talk about life change, right?
 
-## Table of contents
+I decided to start at the bottom of the profession because I wanted to see if the career was for me before committing to an RN degree.
 
-## Frontmatter
+It turns out that I had the qualities to be a good nurse (cool head during emergencies, high tolerance for blood and gore) but I found the physical and emotional aspects of the job draining and painful.
 
-Frontmatter is the main place to store some important information about the post (article). Frontmatter lies at the top of the article and is written in YAML format. Read more about frontmatter and its usage in [astro documentation](https://docs.astro.build/en/guides/markdown-content/).
+(This, by the way, is sadly common - many bedside nurses often leave due to this.)
 
-Here is the list of frontmatter property for each post.
+After 2+ years, I ditched my plans to pursue an RN degree and embarked on a career in digital marketing.
 
-| Property          | Description                                                                               | Remark                    |
-| ----------------- | ----------------------------------------------------------------------------------------- | ------------------------- |
-| **_title_**       | Title of the post. (h1)                                                                   | required<sup>\*</sup>     |
-| **_description_** | Description of the post. Used in post excerpt and site description of the post.           | default = SITE.desc       |
-| **_author_**      | Author of the post.                                                                       | default = SITE.author     |
-| **_datetime_**    | Published datetime in ISO 8601 format.                                                    |                           |
-| **_slug_**        | Slug for the post. Usually the all lowercase title seperated in `-` instead of whtiespace | default = slugified title |
-| **_featured_**    | Whether or not display this post in featured section of home page                         | default = false           |
-| **_draft_**       | Mark this post 'unpublished'.                                                             | default = false           |
-| **_tags_**        | Related keywords for this post. Written in array yaml format.                             |                           |
-| **_ogImage_**     | OG image of the post. Useful for social media sharing and SEO.                            | default = SITE.ogImage    |
+It wasn't easy to make another massive life change. I wrestled with feelings of failure and "I told you so's" from people. Many thought I was stupid to leave Australia ("What a waste! So many people want PR you know!")
 
-`title` and `slug` fields in frontmatter must be specified.
+Some colleagues in my management consutlting company have a saying: "Failure is an opportunity for redirection."
 
-Title is the title of the post and it is very important for search engine optimization (SEO).
+Ducking out of nursing may seem like failure at first, but I grew so much from my years in healthcare and then the pivot to #contentmarketing #contentstrategy.
 
-`slug` is the unique identifier of the url. Thus, `slug` must be unique and different from other posts. The whitespace of `slug` needs to be separated with `-` or `_` but `-` is recommended. If slug is not specified, the slugified title of the post will be used as slug.
+When we think of life as a series of experiments, and realise that it takes many tries to get something right, we won't be as afraid of changes.
 
-Here is the sample frontmatter for the post.
-
-```yaml
-# src/contents/sample-post.md
----
-title: The title of the post
-author: your name
-datetime: 2022-09-21T05:17:19Z
-slug: the-title-of-the-post
-featured: true
-draft: false
-tags:
-  - some
-  - example
-  - tags
-ogImage: ""
-description: This is the example description of the example post.
----
-```
-
-## Adding table of contents
-
-By default, a post (article) does not include any table of contents (toc). To include toc, you have to specify it in a specific way.
-
-Write `Table of contents` in h2 format (## in markdown) and place it where you want it to be appeared on the post.
-
-For instance, if you want to place your table of contents just under the intro paragraph (like I usually do), you can do that in the following way.
-
-```md
----
-# some frontmatter
----
-
-Here are some recommendations, tips & ticks for creating new posts in AstroPaper blog theme.
-
-## Table of contents
-
-<!-- the rest of the post -->
-```
-
-## Headings
-
-There's one thing to note about headings. The AstroPaper blog posts use title (title in the frontmatter) as the main heading of the post. Therefore, the rest of the heading in the post should be using h2 \~ h6.
-
-This rule is not mandatory, but highly recommended for visual, accessibility and SEO purposes.
-
-## Bonus
-
-### Image compression
-
-When you put images in the blog post, it is recommended that the image is compressed. This will affect the overall performance of the website.
-
-My recommendation for image compression sites.
-
-- [TinyPng](https://tinypng.com/)
-- [TinyJPG](https://tinyjpg.com/)
-
-### OG Image
-
-The default OG image will be placed if a post does not specify the OG image. Though not required, OG image related to the post should be specify in the frontmatter. The recommended size for OG image is **_1200 X 640_** px.
+So, if you took a gamble and it didn't work out, please don't be hard on yourself. Not all our decisions end up being gold.
+It's not a failure to quit or if something doesn't work out. It's a redirection.
