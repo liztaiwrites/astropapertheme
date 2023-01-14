@@ -1,19 +1,13 @@
 ---
-title: How Do I Develop My Terminal Portfolio Website with React
+title: Leaving journalism
 author: Elizabeth Tai
 datetime: 2022-06-09T03:42:51.000+00:00
-slug: how-do-i-develop-my-terminal-portfolio-website-with-react
+slug: leaving-journalism
 featured: false
 draft: false
-tags:
-- JavaScript
-- ReactJS
-- ContextAPI
-- Styled-Components
-- TypeScript
-description: 'EXAMPLE POST: Developing a terminal-like website using ReactJS, TypeScript
-  and Styled-Components. Includes features like autocomplete, multiple themes, command
-  hints etc.'
+tags: []
+description: Leaving the familiar comforts of the print media world was not easy,
+  but I felt that it was time to pivot.
 
 ---
 A colleague once asked me why I left journalism. "If you had remained in the media, you would probably be an editor by now!"
