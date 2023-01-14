@@ -1,7 +1,7 @@
 ---
 author: Elizabeth Tai
 datetime: 2018-09-27T12:58:53+08:00
-title: How to configure AstroPaper theme
+title: A workshop in Sarawak
 slug: workshop-sarawak
 featured: false
 draft: false
