@@ -32,3 +32,5 @@ fields:
   label: description
   config:
     required: true
+pages:
+- src/contents/what-is-a-technical-writer.md
