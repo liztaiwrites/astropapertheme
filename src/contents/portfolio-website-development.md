@@ -5,7 +5,8 @@ datetime: 2023-01-02T00:00:00+08:00
 slug: twitter-mess
 featured: false
 draft: false
-tags: []
+tags:
+- social media
 description: People are getting fed up of their social media channels being wrecked
   by the actions of a few.
 
