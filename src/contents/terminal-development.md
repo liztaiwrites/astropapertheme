@@ -1,88 +1,42 @@
 ---
 title: How Do I Develop My Terminal Portfolio Website with React
-author: Sat Naing
-datetime: 2022-06-09T03:42:51Z
+author: Elizabeth Tai
+datetime: 2022-06-09T03:42:51.000+00:00
 slug: how-do-i-develop-my-terminal-portfolio-website-with-react
 featured: false
 draft: false
 tags:
-  - JavaScript
-  - ReactJS
-  - ContextAPI
-  - Styled-Components
-  - TypeScript
-description:
-  "EXAMPLE POST: Developing a terminal-like website using ReactJS, TypeScript and Styled-Components.
-  Includes features like autocomplete, multiple themes, command hints etc."
+- JavaScript
+- ReactJS
+- ContextAPI
+- Styled-Components
+- TypeScript
+description: 'EXAMPLE POST: Developing a terminal-like website using ReactJS, TypeScript
+  and Styled-Components. Includes features like autocomplete, multiple themes, command
+  hints etc.'
+
 ---
+A colleague once asked me why I left journalism. "If you had remained in the media, you would probably be an editor by now!"
+I flippantly answered, "What's the fun in that?"
 
-> This article is originally from my [blog post](https://satnaing.dev/blog/posts/how-do-i-develop-my-terminal-portfolio-website-with-react). I put this article to demonstrate how you can write blog posts/articles using AstroPaper theme.
+It's not that I don't want to be an editor, but I was getting _too comfortable_ in the print media field at a time when massive change was happening. Being an editor would probably be the right move for someone else, but I wanted to be where the change was, and that meant the digital side of things.
 
-Developing a terminal-like website using ReactJS, TypeScript and Styled-Components. Includes features like autocomplete, multiple themes, command hints etc.
+So, I pivoted. Was it challenging leaving the familiar comforts of the print world?
 
-![Sat Naing's Terminal Portfolio](https://satnaing.dev/_ipx/w_2048,q_75/https%3A%2F%2Fres.cloudinary.com%2Fnoezectz%2Fimage%2Fupload%2Fv1654754125%2FSatNaing%2Fterminal-screenshot_gu3kkc.png?url=https%3A%2F%2Fres.cloudinary.com%2Fnoezectz%2Fimage%2Fupload%2Fv1654754125%2FSatNaing%2Fterminal-screenshot_gu3kkc.png&w=2048&q=75)
+Oh gosh, yes! In the first few years after leaving journalism, I was very tempted to return to the media. Sometimes, I felt that I had made a mistake.
 
-## Table of contents
+## New kid on the block
 
-## Intro
+It was tough being the new kid on the block when you're not, well, exactly young. There was so much to learn; new work cultures to adapt to; new ways of collaborating with people. It was incredibly humbling.
 
-Recently, I've developed and published my portfolio + a blog. I’m glad I got some good feedback for it. Today, I want to introduce my new terminal-like portfolio website. It is developed using ReactJS, TypeScript. I got this idea from CodePen and YouTube.
+Fortunately for me, the media wasn't hiring then, so I pressed on, learning more about #digitalmarketing, #contentmarketing. The more I learned, the more I discovered what I liked, and what I wanted to do.
 
-## Tech Stack
+Six years after leaving the newsdesk, I am now a #technicalwriter. I suppose you can call it another career pivot, but to me, I've fine tuned my career trajectory by marrying my love for tech and writing into one job.
 
-This project is a frontend project without any backend codes. The UI/UX part is designed in Figma. For the frontend user-interface, I chose React over pain JavaScript and NextJS. Why?
+I love what I'm doing and learning every day. It's hard to explain the thrill I get when playing with software and writing content to help people to use it. It's terribly geeky but I guess that's why I'm a tech writer!
 
-- Firstly, I want to write declarative code. Managing HTML DOM using JavaScript imperatively is really tedious.
-- Secondly, because it is React!!! It is fast, and reliable.
-- Lastly, I don’t need much of the SEO features, routing and image optimization provided by NextJS.
+What I'm trying to say is this: Don't be afraid to pivot in your career. And even if you do change careers, the journey isn't smooth most of the time. There will be times when you will doubt your decision. But the key is listen to yourself: what do you like/don't like? What do you want to do or learn?
 
-And of course there's TypeScript for type checking.
+Then, fine tune your career so that you can learn, do and experience what you want.
 
-For styling, I took a different approach than what I usually do. Instead of choosing Pure CSS, Sass, or Utility CSS Framework like TailwindCSS, I chose the CSS-in-JS way (Styled-Components). Although I’ve known about Styled-Components for some time, I’ve never tried it out. So, the writing style and structures of Styled-Components in this project may not be very organized or very good.
-
-This project doesn’t need very complex state management. I just use ContextAPI in this project for multiple theming and to avoid prop drilling.
-
-Here’s a quick recap for the tech stack.
-
-- Frontend: [ReactJS](https://reactjs.org/ "React Website"), [TypeScript](https://www.typescriptlang.org/ "TypeScript Website")
-- Styling: [Styled-Components](https://styled-components.com/ "Styled-Components Website")
-- UI/UX: [Figma](https://figma.com/ "Figma Website")
-- State Management: [ContextAPI](https://reactjs.org/docs/context.html "React ContextAPI")
-- Deployment: [Netlify](https://www.netlify.com/ "Netlify Website")
-
-## Features
-
-Here are some features of the project.
-
-### Multiple Themes
-
-Users can change multiple themes. At the time of writing this post, there are 5 themes; and more themes will probably be added in the future. The selected theme is saved in local storage so that the theme won’t change on page refresh.
-
-![Setting different theme](https://i.ibb.co/fSTCnWB/terminal-portfolio-multiple-themes.gif)
-
-### Command-line Completion
-
-To look and feel as close to the actual terminal as possible, I put a command-line completion feature which auto fills in partially typed commands by simply pressing ‘Tab’ or ‘Ctrl + i’.
-
-![Demonstrating command-line completion](https://i.ibb.co/CQTGGLF/terminal-autocomplete.gif)
-
-### Previous Commands
-
-Users can go back to the previous commands or navigate the previously typed commands by pressing Up & Down Arrows.
-
-![Going back to previous commands with UP Arrow](https://i.ibb.co/vD1pSRv/terminal-up-down.gif)
-
-### View/Clear Command History
-
-previously typed commands can be viewed by typing ‘history’ in the command line. All the command history and terminal screen can be wiped out by typing ‘clear’ or pressing ‘Ctrl + l’.
-
-![Clearing the terminal with 'clear' or 'Ctrl + L' command](https://i.ibb.co/SJBy8Rr/terminal-clear.gif)
-
-## Outro
-
-This is a really fun project, and one special part of this project is I had to focus on logic rather than user-interface (even though this is kind of a frontend project).
-
-## Project Links
-
-- Website: [https://terminal.satnaing.dev/](https://terminal.satnaing.dev/ "https://terminal.satnaing.dev/")
-- Repo: [https://github.com/satnaing/terminal-portfolio](https://github.com/satnaing/terminal-portfolio "https://github.com/satnaing/terminal-portfolio")
+[Leave a comment on Linkedin](https://www.linkedin.com/posts/elizabethtai_digitalmarketing-contentmarketing-technicalwriter-activity-7007919468299386880-aluH/?utm_source=share&utm_medium=member_desktop)
