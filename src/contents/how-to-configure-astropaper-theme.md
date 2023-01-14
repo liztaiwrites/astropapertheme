@@ -1,14 +1,15 @@
 ---
 author: Elizabeth Tai
-datetime: 2022-09-23T04:58:53.000+00:00
+datetime: 2018-09-27T12:58:53+08:00
 title: How to configure AstroPaper theme
-slug: how-to-configure-astropaper-theme
-featured: true
+slug: workshop-sarawak
+featured: false
 draft: false
 tags:
 - personal
 ogImage: https://media.licdn.com/dms/image/C5122AQHOcrelh3humA/feedshare-shrink_800/0/1577637655890?e=1676505600&v=beta&t=N4klYI-ouWovfc9cKjyCIC18YpFYSk25NpoXijdaS7s
-description: " "
+description: " I recently attended a workshop with other government communications
+  professionals."
 
 ---
 I'm truly grateful for the adventures that my career has given me. Most recently, I met communications professionals from the Government at a course in Sarawak.
