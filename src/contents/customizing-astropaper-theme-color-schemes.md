@@ -1,13 +1,12 @@
 ---
 author: Sat Naing
 datetime: 2022-09-25T15:20:35.000+00:00
-title: Customizing AstroPaper theme color schemes
-slug: ''
+title: Recovering from workplace bullying
+slug: workplace-bullying
 featured: false
 draft: false
 tags:
-- color-schemes
-- docs
+- career
 ogImage: ''
 description: A toxic job can have a big impact on your physical and mental health.
   Here's how to recover.
