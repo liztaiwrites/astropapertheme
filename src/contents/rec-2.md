@@ -4,7 +4,7 @@ author: Elizabeth Tai
 datetime: 2022-06-06T04:06:31.000+00:00
 slug: b2b-writers
 featured: false
-draft: true
+draft: false
 tags:
 - writing careers
 description: B2B writers are often paid more, but what makes them so special?
