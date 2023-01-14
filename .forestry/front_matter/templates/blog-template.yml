@@ -32,5 +32,3 @@ fields:
   label: description
   config:
     required: true
-pages:
-- src/contents/this-is-a-test.md
