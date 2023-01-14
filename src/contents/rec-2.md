@@ -1,19 +1,15 @@
 ---
-title: My recent article 2
-author: Sat Naing
-datetime: 2022-06-06T04:06:31Z
-slug: my-recent-2
+title: What do B2B writers do?
+author: Elizabeth Tai
+datetime: 2022-06-06T04:06:31.000+00:00
+slug: b2b-writers
 featured: false
 draft: true
 tags:
-  - TypeScript
-  - Astro
-description:
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-  incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel
-  fringilla est
----
+- writing careers
+description: B2B writers are often paid more, but what makes them so special?
 
+---
 My experience about developing my first portfolio website and a blog using NextJS and a headless CMS.
 
 ## Motivation
