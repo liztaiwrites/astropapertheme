@@ -1,12 +1,13 @@
 ---
-title: Tailwind Typography Plugin
+title: The two types of content strategists
 author: Elizabeth Tai
 datetime: 2022-07-05T02:05:51.000+00:00
 featured: false
 draft: false
-tags: []
-description: 'EXAMPLE POST: About Tailwind Typography Plugin and how you can use it
-  effectively.'
+tags:
+- writing careers
+description: UX Content Strategists and Content Marketing strategists - what makes
+  them different?
 
 ---
 There are generally 2 types of content strategists
