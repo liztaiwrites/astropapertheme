@@ -6,7 +6,7 @@ slug: fediverse-social-media
 featured: false
 draft: false
 tags:
-- color-schemes
+- social media
 ogImage: ''
 description: There's a move away from centralised platforms to the "fediverse"
 
