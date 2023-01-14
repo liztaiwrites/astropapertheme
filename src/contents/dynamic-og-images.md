@@ -1,17 +1,16 @@
 ---
-author: Sat Naing
-datetime: 2022-12-28T04:59:04.866Z
-title: Dynamic OG image generation in AstroPaper blog posts
-slug: dynamic-og-image-generation-in-astropaper-blog-posts
+author: Elizabeth Tai
+datetime: 2022-12-28T04:59:04.866+00:00
+title: Every job will teach you something
+slug: lessons-from-work
 featured: false
 draft: false
 tags:
-  - docs
-  - release
-ogImage: ""
-description: New feature in AstroPaper v1.4.0, introducing dynamic OG image generation for blog posts.
----
+- career
+ogImage: ''
+description: Even bad jobs will move you forward in your life and career.
 
+---
 New feature in AstroPaper v1.4.0, introducing dynamic OG image generation for blog posts.
 
 ## Table of contents
