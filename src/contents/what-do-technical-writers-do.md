@@ -1,7 +1,7 @@
 ---
 author: Elizabeth Tai
 datetime: 2023-01-15T07:22:44+08:00
-title: What do technical writers do?
+title: What technical writers do
 slug: technical-writers-do
 featured: true
 draft: false
