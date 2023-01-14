@@ -1,17 +1,15 @@
 ---
-title: How to connect AstroPaper blog with Forestry CMS
-author: Sat Naing
+title: What's a technical writer?
+author: Elizabeth Tai
 datetime: 2022-09-21T05:17:19.000+00:00
-slug: how-to-connect-astro-paper-blog-with-forestry-cms
+slug: technical-writer
 featured: true
 draft: false
 tags:
-- docs
-- forestry-cms
-- astro-paper
-ogImage: https://res.cloudinary.com/noezectz/v1663745737/astro-paper/astropaper-x-forestry-og_kqfwp0.png
-description: Step by step process of connecting Astro-Paper blog theme with Forestry
-  Headless CMS.
+- writing careers
+- technical writing
+ogImage: ''
+description: What do technical writers actually do? And what does it take to be one?
 
 ---
 I am a Technical Writer.
