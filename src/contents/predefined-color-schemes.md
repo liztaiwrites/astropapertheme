@@ -1,15 +1,14 @@
 ---
 author: Elizabeth Tai
 datetime: 2022-09-26T12:13:24.000+00:00
-title: Predefined color schemes
-slug: predefined-color-schemes
+title: The future of social media is decentralised
+slug: fediverse-social-media
 featured: false
 draft: false
 tags:
 - color-schemes
 ogImage: ''
-description: Some of the well-crafted, predefined color schemes for AstroPaper blog
-  theme.
+description: There's a move away from centralised platforms to the "fediverse"
 
 ---
 Static websites are getting more popular these days. And for a good reason. People want to gain more control over their content and distribution channels, and static websites provide them a cost-efficient way of doing that, even if it's not very efficient to build them.
