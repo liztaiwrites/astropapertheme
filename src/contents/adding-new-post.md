@@ -1,15 +1,15 @@
 ---
-author: Sat Naing
+author: Elizabeth Tai
 datetime: 2022-09-23T15:22:00.000+00:00
-title: Adding new posts in AstroPaper theme
-slug: adding-new-posts-in-astropaper-theme
+title: What if you made the wrong career move?
+slug: wrong-career-move
 featured: true
 draft: false
 tags:
-- docs
+- career change
 ogImage: ''
-description: Some rules & recommendations for creating or adding new posts using AstroPaper
-  theme.
+description: It happens. The career you thought would be perfect for you turns out
+  to be a disaster. What now?
 
 ---
 What if you made a career decision but then realised it was the wrong move? What do you do?
