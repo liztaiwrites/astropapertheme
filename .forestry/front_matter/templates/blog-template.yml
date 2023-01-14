@@ -34,3 +34,4 @@ fields:
     required: true
 pages:
 - src/contents/another-test.md
+- src/contents/is-this-even-worth-it.md
