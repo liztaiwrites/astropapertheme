@@ -1,106 +1,33 @@
 ---
-author: Sat Naing
-datetime: 2022-09-26T12:13:24Z
+author: Elizabeth Tai
+datetime: 2022-09-26T12:13:24.000+00:00
 title: Predefined color schemes
 slug: predefined-color-schemes
 featured: false
 draft: false
 tags:
-  - color-schemes
-ogImage: ""
-description:
-  Some of the well-crafted, predefined color schemes for AstroPaper blog
+- color-schemes
+ogImage: ''
+description: Some of the well-crafted, predefined color schemes for AstroPaper blog
   theme.
+
 ---
+Static websites are getting more popular these days. And for a good reason. People want to gain more control over their content and distribution channels, and static websites provide them a cost-efficient way of doing that, even if it's not very efficient to build them.
 
-I've crafted some predefined color schemes for this AstroPaper blog theme. You can replace these color schemes with the original ones.
+Instead of relying on cloud-based web builders and content management systems to create dynamic websites, some tech-savvy users are building "static" websites that do not require databases.
 
-If you don't know how you can configure color schemes, check [this blog post](https://astro-paper.pages.dev/posts/customizing-astropaper-theme-color-schemes/).
+This is pretty geeky stuff, mostly popular with folks who know some coding and are tech-savvy and at very early stages. These static website creators are trying to get more control - just like those building private social media gardens free from massive centralised platforms like Facebook, Twitter and Instagram.
 
-## Table of contents
+This space is called the "Fediverse", and is made up of thousands if not millions of independent, interconnected servers. These "instances" publish and distribute files such as posts, images and videos and communicate with each other via a decentralized social networking protocol called ActivityPub.
 
-## Light color schemes
+Lately, with [Twitter melting down into chaos](/posts/twitter-mess), the Fediverse concept is gaining traction. Major players such as Mastodon, a free and open-source software and microblogging network, are gaining millions of users, sometimes overnight.
 
-Light color scheme has to be defined using the css selector `:root` and `html[data-theme="light"]`.
+I believe we've reached a crossroads of sorts in the social media/Internet space. What I call the "fed up" point - users want alternatives. They want more control over their data. They want more control of what they read/see. They want freedom to create spaces that can reach their readers better. They want to remove middlemen.
 
-### Lobster
+In time, new technologies will spring up to cater to this desire.
 
-![lobster-color-scheme](https://user-images.githubusercontent.com/53733092/192282447-1d222faf-a3ce-44a9-9cfe-ac873155e5a9.png)
+From massive public media platforms to a decentralised "Fediverse".
 
-```css
-:root,
-html[data-theme="light"] {
-  --color-fill: 246, 238, 225;
-  --color-text-base: 1, 44, 86;
-  --color-accent: 225, 74, 57;
-  --color-card: 217, 209, 195;
-  --color-card-muted: 239, 216, 176;
-  --color-border: 220, 152, 145;
-}
-```
+Imagine that!
 
-### Leaf Blue
-
-![leaf-blue-color-scheme](https://user-images.githubusercontent.com/53733092/192318782-e80e3c39-54b5-423e-8f4b-9ae60402fc8d.png)
-
-```css
-:root,
-html[data-theme="light"] {
-  --color-fill: 242, 245, 236;
-  --color-text-base: 53, 53, 56;
-  --color-accent: 17, 88, 209;
-  --color-card: 206, 213, 180;
-  --color-card-muted: 187, 199, 137;
-  --color-border: 124, 173, 255;
-}
-```
-
-### Pinky light
-
-![pinky-color-scheme](https://user-images.githubusercontent.com/53733092/192286510-892d0042-2d6d-471e-bb72-954221ae2d17.png)
-
-```css
-:root,
-html[data-theme="light"] {
-  --color-fill: 250, 252, 252;
-  --color-text-base: 34, 46, 54;
-  --color-accent: 211, 0, 106;
-  --color-card: 234, 206, 219;
-  --color-card-muted: 241, 186, 212;
-  --color-border: 227, 169, 198;
-}
-```
-
-## Dark color schemes
-
-Light color scheme has to be defined as `html[data-theme="dark"]`.
-
-### Deep Oyster
-
-![deep-oyster-color-scheme](https://user-images.githubusercontent.com/53733092/192314524-45ec5904-3d8f-450a-9edf-1e32c5e11d6c.png)
-
-```css
-html[data-theme="dark"] {
-  --color-fill: 33, 35, 61;
-  --color-text-base: 244, 247, 245;
-  --color-accent: 255, 82, 86;
-  --color-card: 57, 60, 102;
-  --color-card-muted: 74, 78, 134;
-  --color-border: 177, 47, 50;
-}
-```
-
-### Pikky dark
-
-![pinky-dark-color-scheme](https://user-images.githubusercontent.com/53733092/192307050-fbd55326-911c-4001-87c6-a8ad9378ac2e.png)
-
-```css
-html[data-theme="dark"] {
-  --color-fill: 53, 54, 64;
-  --color-text-base: 233, 237, 241;
-  --color-accent: 255, 120, 200;
-  --color-card: 75, 76, 89;
-  --color-card-muted: 113, 85, 102;
-  --color-border: 134, 67, 107;
-}
-```
+I wonder how the media, advertising, marketing and PR industries will adapt to this decentralised field? Or will these private spaces have little impact?
